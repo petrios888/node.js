@@ -1,15 +1,25 @@
 import React from 'react'
+import ReactDOM from 'react-dom';
+
+
+import SearchBar from './components/search_bar';
+
 
 
 // Create New Component
 // some HTML
 
-const App = function () {     return <div> God is Good! </div>;  }
+// youtube API key = AIzaSyD0sM9yiDqADYwDquuRBkBKzS6wIzyhV7M
+
+const API_KEY = 'AIzaSyD0sM9yiDqADYwDquuRBkBKzS6wIzyhV7M';
+
+
+const App =  () => {     return (<div> <SearchBar/> </div>) ;  }
 
 
 
 
 
-React.render(App);
+ReactDOM.render(< App /> , document.querySelector('.container'));
 
 
