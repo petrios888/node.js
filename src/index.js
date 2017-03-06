@@ -9,9 +9,9 @@ import SearchBar from './components/search_bar';
 // Create New Component
 // some HTML
 
-// youtube API key = AIzaSyD0sM9yiDqADYwDquuRBkBKzS6wIzyhV7M
+// youtube API key = ####################################
 
-const API_KEY = 'AIzaSyD0sM9yiDqADYwDquuRBkBKzS6wIzyhV7M';
+const API_KEY = '#######################################';
 
 
 const App =  () => {     return (<div> <SearchBar/> </div>) ;  }
